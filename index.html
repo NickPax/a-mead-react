@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><Document>a-mead-react</Document></title>
+</head>
+<body>
+    <div class="container">
+        <img src="images/AMead-%20simple-counter-1.png" alt="">	
+        <p>hi 1 ts tuuy tresuu</p>
+        <img src="images/AMead-simple-counter-2.png" alt="">
+        <p>hi 2 ts tuuy tresuu</p>
+        <img src="images/AMead-simple-counter-3.png" alt="">
+        <p>hi thi ts tuuy tresuu</p>
+        <img src="images/AMead-simple-counter-4.png" alt="">
+        <p>hi thi ts tuuy tresuu</p>
+        <img src="images/CSS-grid-template-areas.png" alt="">
+        <p>hi thi ts tuuy tresuu</p>
+        <img src="images/AMead-first-app-USER.png" alt="">
+        <p>hi thi ts tuuy tresuu</p>
+        <img src="images/AMEAD-add-and-remove-options.png" alt="">
+        <p>hi thi ts tuuy tresuu</p>
+        <img src="images/AMEAD-condition-rendering.png" alt="">
+        <p>hi thi ts tuuy tresuu</p>
+    </div>
+    
+    <style>
+        .container{
+              background: #f0f0f0;
+            display: grid;
+            grid-gap:20px;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: 700px) {
+              .container {
+                grid-template-columns: 1fr;
+            }
+            .item{
+              font-size: 25px;
+            }
+        }
+        
+        img {
+          background-size: cover;
+          width: 100%;
+          max-height: 100%;
+        }
+
+        p {
+          grid-gap: 10px;
+          text-align: center;
+          font-family: 'Lato', sans-serif;
+          font-size: 26px;
+          /*  width: 100%;*/
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+          text-align: justify;
+          padding: 5px;
+          box-shadow: 0 2px 2px 0 hsla(0, 0%, 0%, 0.2);
+        }
+    
+    </style>
+	
+</body>
+</html>
